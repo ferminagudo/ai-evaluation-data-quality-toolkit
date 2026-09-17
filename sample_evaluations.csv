@@ -1,0 +1,6 @@
+id,prompt,response_a,response_b,preferred_response,not_preferred_response,reason_a,reason_b
+001,What is 2+2?,4,5,A,B,Accurate and directly answers the question.,Incorrect numerical answer.
+002,"Translate ""Good morning"" to Tagalog.",Magandang umaga.,Magandang gabi.,A,B,Correct translation.,Means good evening/night.
+003,Give two benefits of exercise.,It can improve cardiovascular health and muscle strength.,Exercise is good for you.,A,B,Provides two relevant benefits.,Relevant but incomplete.
+004,What is the capital of Japan?,Tokyo,Osaka,A,B,Correct factual response.,Incorrect city.
+005,List three primary colors.,"Red, blue, and yellow.",Red and blue.,A,B,Provides all three expected items.,Only two items provided.

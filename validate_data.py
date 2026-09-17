@@ -10,7 +10,7 @@ REQUIRED_FIELDS = [
     "reason_a", "reason_b"
 ]
 
-def validate_data():
+def src/validate_data.py():
     with DATA_FILE.open(newline="", encoding="utf-8") as file:
         rows = list(csv.DictReader(file))
 

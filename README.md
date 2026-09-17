@@ -5,29 +5,53 @@ A Python-based portfolio project demonstrating structured AI response evaluation
 ## Skills Demonstrated
 
 - AI response evaluation
-- Comparative output analysis
+- Comparative response analysis
 - Data validation
 - Quality assurance
 - Python
 - Structured reporting
 
-## Purpose
+## Project Purpose
 
-This project demonstrates a practical approach to reviewing AI-generated content and identifying common data-quality issues while following defined evaluation criteria.
+This project demonstrates a practical approach to reviewing AI-generated responses using defined evaluation criteria.
 
-**Important:** All examples and datasets in this repository are synthetic and created for portfolio demonstration purposes. No client or confidential project data is included.
+It includes a small synthetic dataset, Python scripts for evaluation and validation, and a sample quality report.
+
+## Evaluation Approach
+
+The sample dataset contains paired responses to the same prompts. Each example identifies:
+
+- The prompt being evaluated
+- Two candidate responses
+- The preferred response
+- The non-preferred response
+- Reasons supporting the evaluation
+
+The examples demonstrate how responses can be compared based on factors such as accuracy, completeness, relevance, and directness.
+
+## Data Validation
+
+The validation script checks the dataset for common quality issues, including:
+
+- Required fields
+- Duplicate IDs
+- Valid preference labels
+- Missing values
+
+The initial synthetic dataset contains **5 records** and reported no validation issues.
 
 ## Project Structure
 
 ```text
 ai-evaluation-data-quality-toolkit/
 ├── README.md
+├── .gitignore
 ├── requirements.txt
 ├── data/
+│   └── sample_evaluations.csv
 ├── src/
+│   ├── evaluate_responses.py
+│   └── validate_data.py
 └── reports/
-
-python src/evaluate_responses.py
-python src/validate_data.py
-
+    └── sample_quality_report.md
 ​

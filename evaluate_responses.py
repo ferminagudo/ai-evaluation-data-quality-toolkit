@@ -3,7 +3,7 @@ from pathlib import Path
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "sample_evaluations.csv"
 
-def src/evaluate_responses.py():
+def evaluate_responses():
     with DATA_FILE.open(newline="", encoding="utf-8") as file:
         rows = list(csv.DictReader(file))
 

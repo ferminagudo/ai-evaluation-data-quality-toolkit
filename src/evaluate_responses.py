@@ -57,7 +57,8 @@ def evaluate_responses():
         print(f"\nID: {evaluation_id}")
         print(f"Prompt: {prompt}")
         print(f"Preferred response: {preferred}")
-        print(f"Reason: {row['reason_a']}")
+        reason = row["reason_a"] if preferred == "A" else row["reason_b"]
+        print(f"Reason: {reason}")
 
     print("\n" + "=" * 60)
     print(f"Evaluations reviewed: {len(rows)}")
